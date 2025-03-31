@@ -47,7 +47,7 @@ jobs:
           plugin_achievements_display: compact
           plugin_achievements_threshold: C
           plugin_followup_archived: yes
-          plugin_followup_sections: repositories
+          plugin_followup_sections: repositories, issues, pull_requests
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
