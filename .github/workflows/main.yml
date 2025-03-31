@@ -12,6 +12,8 @@ jobs:
       name: production
     permissions:
       contents: write
+      pull-requests: read
+      repository-projects: read
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -38,7 +40,7 @@ jobs:
           plugin_activity_visibility: all
           plugin_followup: yes
           plugin_notable: yes
-          plugin_notable_from: organization
+          plugin_notable_from: all
           plugin_notable_repositories: yes
           plugin_notable_types: commit, pull_request, issue
           plugin_achievements: yes
