@@ -34,8 +34,7 @@ jobs:
           config_timezone: Europe/Istanbul
           plugin_rss: yes
           plugin_rss_source: https://www.oguzhangunduz.com/feed.xml
-          plugin_rss_limit: 5
-          plugin_habits_languages_threshold: 0%
+          plugin_rss_limit: 3
           plugin_introduction: yes
           plugin_introduction_title: yes
           plugin_isocalendar: yes
